@@ -127,6 +127,9 @@ text-align: center;
 }
 
 .manga {
+    display: flex;
+    justify-content:space-between;
+    text-decoration: underline #4f0147;
 }
 
 
