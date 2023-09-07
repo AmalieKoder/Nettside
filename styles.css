@@ -127,7 +127,8 @@ text-align: center;
 }
 
 .manga {
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 
