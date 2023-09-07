@@ -2,8 +2,8 @@ body {
     background-image: linear-gradient(#ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff);
 }
 
-.img {
-    text-align: center;
+img {
+    
 
 }
 
@@ -12,6 +12,7 @@ body {
     color: #FFFFFF;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     color: #FFFFFF;
+    text-align: center;
     
 }
 
