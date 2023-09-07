@@ -120,6 +120,9 @@ color: #4f0147;
     text-decoration:underline #4f0147;
 }
 
-
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
 
 
