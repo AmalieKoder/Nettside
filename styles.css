@@ -126,5 +126,8 @@ text-align: center;
     justify-content: space-around;
 }
 
-
+.manga {
+    display: flex;
+    
+}
 
