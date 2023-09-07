@@ -126,10 +126,5 @@ text-align: center;
     justify-content: space-around;
 }
 
-.manga {
-    display: flex;
-    justify-content:space-between;
-    text-decoration: underline #4f0147;
-}
 
 
