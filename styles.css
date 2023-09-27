@@ -30,6 +30,7 @@ body {
     color: #ffb5a7;
 text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
 color: #ffb5a7;
+text-align: center;
 
 }
 
@@ -116,6 +117,11 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 color: #4f0147;
 text-align: center;
 margin-top: 50px;
+display: grid;
+justify-items: center;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+gap: 1em;
 
 }
 
@@ -123,15 +129,23 @@ margin-top: 50px;
     text-decoration:underline #4f0147;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 .netlify {
     text-decoration: underline #4f0147;
 }
 
+.manga {
+    font-size: 20px;
+}
+
+.url {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    gap: 5em;
+}
 
 
 
