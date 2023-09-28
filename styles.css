@@ -117,11 +117,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 color: #4f0147;
 text-align: center;
 margin-top: 50px;
-display: grid;
-justify-items: center;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, 1fr);
-gap: 1em;
 
 }
 
@@ -145,6 +140,14 @@ gap: 1em;
     padding-left: 0;
     text-align: left;
     gap: 5em;
+}
+
+#section {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
 }
 
 
