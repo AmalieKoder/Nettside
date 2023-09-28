@@ -148,6 +148,28 @@ margin-top: 50px;
     gap: 1em;
 }
 
+@media (max-width: 770px) {
+    .section {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 426px) {
+    .section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .url {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
 
 
 
